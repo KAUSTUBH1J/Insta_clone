@@ -1,0 +1,145 @@
+
+.post_container{
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+.post_up{
+    margin-left: 20px;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.profile_image_cantaier {
+    width: 40px; 
+    height: 40px; 
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #9e9e9e;
+}
+
+.post_profile_img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.username_container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: 20px;
+    flex-direction: column;
+}
+
+.username_container p{
+    font-weight: 500;
+    margin: 0;
+}
+.username_container span{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.post_img_constainer{
+    width: 100%; 
+    height: 500px; 
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    /* border: 1px solid #9e9e9e; */
+}
+
+
+.post_img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.post_description{
+ padding: 15px 10px;
+}
+
+.post_actions{
+    justify-content: space-between;
+}
+
+.action_icon{
+    height: 25px;
+    color: rgb(218, 218, 218);
+    margin-right: 11px;
+    cursor: pointer;
+}
+
+.caption p{
+    text-align: start;
+    font-size: 14px;
+}
+
+/* src/functions/post.css */
+.comments_section {
+    max-height: 200px;
+    /* overflow-y: auto; */
+}
+
+.comment {
+    margin: 0 5px;
+    text-align: start;
+}
+
+.comment_input {
+    display: flex;
+}
+
+.comment_input .form-control {
+    flex: 1;
+}
+
+.comment_input .btn {
+    flex-shrink: 0;
+}
+
+
+
+
+.post_up_comm{
+    margin-left: 5px;
+    padding: 4px 0;
+    display: flex;
+    align-items: center;
+}
+
+.profile_image_cantaier_comm {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+    overflow: hidden; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 1px solid #9e9e9e;
+}
+
+.post_profile_img_comm {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+.username_container_comm{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.username_container_comm p{
+    font-weight: 600;
+    margin: 0;
+}

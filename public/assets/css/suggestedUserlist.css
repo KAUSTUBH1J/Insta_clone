@@ -1,0 +1,16 @@
+.suggested_text{
+    text-align: start;
+    font-size: small;
+    color: rgb(75, 75, 75);
+}
+
+.Side_suggestion .post_up{
+    margin: 0 !important;
+}
+
+.follow_btn{
+    color:rgb(0, 174, 255);
+    cursor: pointer;
+    font-weight: 500;
+}
+

@@ -1,0 +1,111 @@
+.profile-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    background-color: #dbdbdb;
+}
+.profile-info {
+    flex-grow: 1;
+}
+.username {
+    font-size: 28px;
+    font-weight: bold;
+}
+.bio {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+}
+.stats {
+    display: flex;
+    margin-top: 10px;
+}
+.stat {
+    margin-right: 20px;
+}
+.stat-number {
+    font-weight: bold;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.grid-item {
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+.grid-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.grid-item:hover .overlay {
+    opacity: 1;
+}
+.overlay-content {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+.overlay-content i {
+    margin-right: 5px;
+}
+
+/* src/component/profile/ProfilePage.css */
+.profile-container {
+    padding: 20px;
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd; /* Placeholder color */
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-content {
+    color: white;
+}
+
+.action_icon {
+    margin-right: 5px;
+}

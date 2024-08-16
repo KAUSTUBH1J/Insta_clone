@@ -1,0 +1,44 @@
+.login_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+}
+.login-container {
+    width: 350px;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+.logo {
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 10px;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background-color: #fafafa;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.signup-link {
+    margin-top: 20px;
+}
